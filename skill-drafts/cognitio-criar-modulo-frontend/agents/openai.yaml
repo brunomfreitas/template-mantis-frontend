@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cognitio: criar módulo frontend"
+  short_description: "Cria cadastros seguindo os padrões do frontend"
+  default_prompt: "Use $cognitio-criar-modulo-frontend para criar o cadastro frontend da entidade indicada, consultando seu contrato no backend e seguindo os padrões existentes."

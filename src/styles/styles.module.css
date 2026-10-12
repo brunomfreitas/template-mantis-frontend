@@ -1,0 +1,47 @@
+/* styles.module.css */
+
+.headphoneContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* altura da tela inteira */
+}
+
+.headphone {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.soundDirection {
+  position: absolute;
+  top: 10px;
+  left: 20%;
+}
+
+.earpiece {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.emoji {
+  font-size: 80px; /* ajuste conforme necessário */
+}
+
+.leftButton,
+.rightButton {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.leftButton {
+  left: 0;
+}
+
+.rightButton {
+  right: 0;
+}
